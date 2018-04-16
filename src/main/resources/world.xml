@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<world
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='jaxb/nicolas/clicker.xsd'>
+    <name>Cage Clicker</name>
+    <logo>CageCoin.jpg</logo>
+    <money>0</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus></angelbonus>
+    <lastupdate></lastupdate>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Vampire Cage</name>
+            <logo>VampireCage.png</logo>
+            <cout>4</cout>
+            <croissance>1.07</croissance>
+            <revenu>1</revenu>
+            <vitesse>500</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>faux</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Dracula Cage</name>
+                    <logo>VampireCage.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Edward Cage</name>
+                    <logo>VampireCage.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Nosferatu Cage</name>
+                    <logo>VampireCage.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>2</id>
+            <name>Flying Cage</name>
+            <logo>FlyingCage.png</logo>
+            <cout>60</cout>
+            <croissance>1.15</croissance>
+            <revenu>60</revenu>
+            <vitesse>3000</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>faux</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Airbus Cage</name>
+                    <logo>FlyingCage.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Boeing Cage</name>
+                    <logo>FlyingCage.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Bombardier Cage</name>
+                    <logo>FlyingCage.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Hitman Cage</name>
+            <logo>HitmanCage.png</logo>
+            <cout>720</cout>
+            <croissance>1.14</croissance>
+            <revenu>540</revenu>
+            <vitesse>6000</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>faux</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Corvo Cage</name>
+                    <logo>HitmanCage.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Anton Cage</name>
+                    <logo>HitmanCage.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Leon Cage</name>
+                    <logo>HitmanCage.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Snake Cage</name>
+            <logo>SnakeCage.png</logo>
+            <cout>8640</cout>
+            <croissance>1.13</croissance>
+            <revenu>4320</revenu>
+            <vitesse>12000</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>faux</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Cobra Cage</name>
+                    <logo>SnakeCage.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Viper Cage</name>
+                    <logo>SnakeCage.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Python Cage</name>
+                    <logo>SnakeCage.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>5</id>
+            <name>Indiana Cage</name>
+            <logo>IndianaCage.png</logo>
+            <cout>103680</cout>
+            <croissance>1.12</croissance>
+            <revenu>51840</revenu>
+            <vitesse>24000</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>faux</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Christophe Cage</name>
+                    <logo>IndianaCage.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Marco Cage</name>
+                    <logo>IndianaCage.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Ernest Cage</name>
+                    <logo>IndianaCage.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>6</id>
+            <name>Bee Cage</name>
+            <logo>BeeCage.png</logo>
+            <cout>1244160</cout>
+            <croissance>1.11</croissance>
+            <revenu>622080</revenu>
+            <vitesse>96000</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>faux</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Apidae Cage</name>
+                    <logo>BeeCage.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Andrenidae Cage</name>
+                    <logo>BeeCage.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Colletidae Cage</name>
+                    <logo>BeeCage.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>faux</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+    </products>
+    <allunlocks>
+        <pallier>
+            <name>CAGER!</name>
+            <logo>CageCoin.jpg</logo>
+            <seuil>25</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>CAAGER!</name>
+            <logo>CageCoin.jpg</logo>
+            <seuil>50</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>CAAAGER!</name>
+            <logo>CageCoin.jpg</logo>
+            <seuil>100</seuil>
+            <idcible>0</idcible>
+            <ratio>2</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+    </allunlocks>
+    <upgrades>
+        <pallier>
+            <name>Vampire Cage Profit x3</name>
+            <logo>VampireCage.png</logo>
+            <seuil>250000</seuil>
+            <idcible>1</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Flying Cage Profit x3</name>
+            <logo>FlyingCage.png</logo>
+            <seuil>500000</seuil>
+            <idcible>2</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Hitman Cage Profit x3</name>
+            <logo>HitmanCage.png</logo>
+            <seuil>1000000</seuil>
+            <idcible>3</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Snake Cage Profit x3</name>
+            <logo>SnakeCage.png</logo>
+            <seuil>5000000</seuil>
+            <idcible>4</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Indiana Cage Profit x3</name>
+            <logo>IndianaCage.png</logo>
+            <seuil>10000000</seuil>
+            <idcible>5</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Bee Cage Profit x3</name>
+            <logo>BeeCage.png</logo>
+            <seuil>25000000</seuil>
+            <idcible>6</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Vampire Cage Profit x4</name>
+            <logo>VampireCage.png</logo>
+            <seuil>50000000</seuil>
+            <idcible>1</idcible>
+            <ratio>4</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Flying Cage Profit x4</name>
+            <logo>FlyingCage.png</logo>
+            <seuil>75000000</seuil>
+            <idcible>2</idcible>
+            <ratio>4</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Hitman Cage Profit x4</name>
+            <logo>HitmanCage.png</logo>
+            <seuil>99999999</seuil>
+            <idcible>3</idcible>
+            <ratio>4</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Snake Cage Profit x4</name>
+            <logo>SnakeCage.png</logo>
+            <seuil>99999999</seuil>
+            <idcible>4</idcible>
+            <ratio>4</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Indiana Cage Profit x4</name>
+            <logo>IndianaCage.png</logo>
+            <seuil>99999999</seuil>
+            <idcible>5</idcible>
+            <ratio>4</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Bee Cage Profit x4</name>
+            <logo>BeeCage.png</logo>
+            <seuil>99999999</seuil>
+            <idcible>6</idcible>
+            <ratio>4</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+    </upgrades>
+    <angelupgrades>
+        <pallier>
+            <name>OSCAR!</name>
+            <logo>Oscar.png</logo>
+            <seuil>10000</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>OSCAAR!</name>
+            <logo>Oscar.png</logo>
+            <seuil>100000</seuil>
+            <idcible>-1</idcible>
+            <ratio>2</ratio>
+            <typeratio>ANGE</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>OSCAAAR!</name>
+            <logo>Oscar.png</logo>
+            <seuil>100000000</seuil>
+            <idcible>-1</idcible>
+            <ratio>2</ratio>
+            <typeratio>ANGE</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>OSCAAAAR!</name>
+            <logo>Oscar.png</logo>
+            <seuil>1000000000</seuil>
+            <idcible>0</idcible>
+            <ratio>5</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+    </angelupgrades>
+    <managers>
+        <pallier>
+            <name>Robert Bierman</name>
+            <logo>Bierman.png</logo>
+            <seuil>1000</seuil>
+            <idcible>1</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Simon West</name>
+            <logo>West.png</logo>
+            <seuil>15000</seuil>
+            <idcible>2</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>John Woo</name>
+            <logo>Woo.png</logo>
+            <seuil>100000</seuil>
+            <idcible>3</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Brian de Palma</name>
+            <logo>Palma.png</logo>
+            <seuil>500000</seuil>
+            <idcible>4</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Jon Turtletaub</name>
+            <logo>Turtletaub.png</logo>
+            <seuil>1200000</seuil>
+            <idcible>5</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+        <pallier>
+            <name>Neil LaBute</name>
+            <logo>LaBute.png</logo>
+            <seuil>10000000</seuil>
+            <idcible>6</idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked>faux</unlocked>
+        </pallier>
+    </managers>
+
+</world>
