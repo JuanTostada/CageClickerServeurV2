@@ -121,6 +121,30 @@
                         </configuration>
                         <id>jaxb-generate-nicolas_2</id>
                     </execution>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>jaxb/generated/*.xsd</include>
+                            </schemaIncludes>
+                            <episodeFile>${project.build.directory}/generated-sources/xjc/META-INF/jaxb-generated.episode</episodeFile>
+                        </configuration>
+                        <id>jaxb-generate-generated</id>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>jaxb/Bind1/*.xsd</include>
+                            </schemaIncludes>
+                            <episodeFile>${project.build.directory}/generated-sources/xjc/META-INF/jaxb-Bind1.episode</episodeFile>
+                        </configuration>
+                        <id>jaxb-generate-Bind1</id>
+                    </execution>
                 </executions>
                 <configuration>
                     <catalog>src/main/resources/jaxb/catalog.xml</catalog>
